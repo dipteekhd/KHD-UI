@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins&display=swap");
+@import url(color.css);
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Headings */
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+h5 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+
+/* Font weight */
+.light-font {
+  font-weight: 300;
+}
+.regular-font {
+  font-weight: 400;
+}
+.semibold-font {
+  font-weight: 600;
+}
+.bold-font {
+  font-weight: 700;
+}
+.bold-font {
+  font-weight: 900;
+}
+
+/* Text */
+.text-xl {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.text-lg {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.text-md {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-sm {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-xs {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+
+/* Spacing padding */
+
+/* 1. Extra small */
+.p-xs-all {
+  padding: 0.5rem;
+}
+.p-xs-hr {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.p-xs-vr {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.p-xs-t {
+  padding-top: 0.5rem;
+}
+.p-xs-b {
+  padding-bottom: 0.5rem;
+}
+.p-xs-l {
+  padding-left: 0.5rem;
+}
+.p-xs-r {
+  padding-right: 0.5rem;
+}
+
+.p-xxs-all {
+  padding: 0.25rem;
+}
+
+/* 2. Small */
+.p-sm-all {
+  padding: 1rem;
+}
+.p-sm-hr {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.p-sm-vr {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.p-sm-t {
+  padding-top: 1rem;
+}
+.p-sm-b {
+  padding-bottom: 1rem;
+}
+.p-sm-l {
+  padding-left: 1rem;
+}
+.p-sm-r {
+  padding-right: 1rem;
+}
+
+/* 3. Medium */
+.p-md-all {
+  padding: 1.5rem;
+}
+.p-md-hr {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.p-md-vr {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.p-md-t {
+  padding-top: 1.5rem;
+}
+.p-md-b {
+  padding-bottom: 1.5rem;
+}
+.p-md-l {
+  padding-left: 1.5rem;
+}
+.p-md-r {
+  padding-right: 1.5rem;
+}
+
+/* 4. Large */
+.p-lg-all {
+  padding: 2rem;
+}
+.p-lg-hr {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.p-lg-vr {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.p-lg-t {
+  padding-top: 2rem;
+}
+.p-lg-b {
+  padding-bottom: 2rem;
+}
+.p-lg-l {
+  padding-left: 2rem;
+}
+.p-lg-r {
+  padding-right: 2rem;
+}
+
+/* 5. Extra Large */
+.p-xl-all {
+  padding: 2.5rem;
+}
+.p-xl-hr {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.p-xl-vr {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.p-xl-t {
+  padding-top: 2.5rem;
+}
+.p-xl-b {
+  padding-bottom: 2.5rem;
+}
+.p-xl-l {
+  padding-left: 2.5rem;
+}
+.p-xl-r {
+  padding-right: 2.5rem;
+}
+
+/* XXL */
+.p-xxl-all {
+  padding: 4rem;
+}
+.p-xxl-hr {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.p-xxl-vr {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.p-xxl-t {
+  padding-top: 4rem;
+}
+.p-xxl-b {
+  padding-bottom: 4rem;
+}
+.p-xxl-l {
+  padding-left: 4rem;
+}
+.p-xxl-r {
+  padding-right: 4rem;
+}
+
+/* Spacing  margin*/
+
+/* 1. Extra small */
+.m-xs-all {
+  margin: 0.5rem;
+}
+.m-xs-hr {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.m-xs-vr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.m-xs-t {
+  margin-top: 0.5rem;
+}
+.m-xs-b {
+  margin-bottom: 0.5rem;
+}
+.m-xs-l {
+  margin-left: 0.5rem;
+}
+.m-xs-r {
+  margin-right: 0.5rem;
+}
+
+/* 2. Small */
+.m-sm-all {
+  margin: 1rem;
+}
+.m-sm-hr {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.m-sm-vr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.m-sm-t {
+  margin-top: 1rem;
+}
+.m-sm-b {
+  margin-bottom: 1rem;
+}
+.m-sm-l {
+  margin-left: 1rem;
+}
+.m-sm-r {
+  margin-right: 1rem;
+}
+
+/* 3. Medium */
+.m-md-all {
+  margin: 1.5rem;
+}
+.m-md-hr {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.m-md-vr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.m-md-t {
+  margin-top: 1.5rem;
+}
+.m-md-b {
+  margin-bottom: 1.5rem;
+}
+.m-md-l {
+  margin-left: 1.5rem;
+}
+.m-md-r {
+  margin-right: 1.5rem;
+}
+
+/* 4. Large */
+.m-lg-all {
+  margin: 2rem;
+}
+.m-lg-hr {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.m-lg-vr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.m-lg-t {
+  margin-top: 2rem;
+}
+.m-lg-b {
+  margin-bottom: 2rem;
+}
+.m-lg-l {
+  margin-left: 2rem;
+}
+.m-lg-r {
+  margin-right: 2rem;
+}
+
+/* 5. Extra Large */
+.m-xl-all {
+  margin: 2.5rem;
+}
+.m-xl-hr {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.m-xl-vr {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.m-xl-t {
+  margin-top: 2.5rem;
+}
+.m-xl-b {
+  margin-bottom: 2.5rem;
+}
+.m-xl-l {
+  margin-left: 2.5rem;
+}
+.m-xl-r {
+  margin-right: 2.5rem;
+}
+
+/* XXL */
+.m-xxl-all {
+  margin: 4rem;
+}
+.m-xxl-hr {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.m-xxl-vr {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.m-xxl-t {
+  margin-top: 4rem;
+}
+.m-xxl-b {
+  margin-bottom: 4rem;
+}
+.m-xxl-l {
+  margin-left: 4rem;
+}
+.m-xxl-r {
+  margin-right: 4rem;
+}
+
+/* Border radius */
+.rounded-sm {
+  border-radius: 5px;
+}
+.rounded-md {
+  border-radius: 10px;
+}
+.rounded-lg {
+  border-radius: 15px;
+}
+.rounded-circle {
+  border-radius: 50%;
+}

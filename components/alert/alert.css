@@ -1,0 +1,60 @@
+@import url(/common/style.css);
+
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey-100);
+}
+
+/* Start Alert CSS  */
+
+.alert {
+  max-width: 800px;
+  min-width: 300px;
+  display: flex;
+}
+
+/* Basic Alert */
+.alert--success {
+  background-color: var(--success);
+  color: var(--lynx-white);
+}
+.alert--error {
+  background-color: var(--danger);
+  color: var(--lynx-white);
+}
+
+.alert--warning {
+  background-color: var(--warning);
+  color: var(--lynx-white);
+}
+.alert--info {
+  background-color: var(--secondary);
+  color: var(--lynx-white);
+}
+
+/* Dismiss Alert */
+.alert--dismiss {
+  margin-left: auto;
+  color: var(--lynx-white);
+}
+
+/* Outline Alert */
+.alert--success-outline {
+  border: 1px solid var(--success);
+  color: var(--success);
+}
+.alert--error-outline {
+  border: 1px solid var(--danger);
+  color: var(--danger);
+}
+
+.alert--warning-outline {
+  border: 1px solid var(--warning);
+  color: var(--warning);
+}
+.alert--info-outline {
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+}
+/* End Alert CSS  */

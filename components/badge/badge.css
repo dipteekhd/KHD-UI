@@ -1,0 +1,62 @@
+@import url(/common/style.css);
+@import url(/components/avatar/avatar.css);
+
+.badge-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.badge-variant {
+  display: flex;
+}
+
+/* Start badge css */
+/* Badge on icons */
+.button-icon {
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.button-icon:hover {
+  background-color: var(--grey-100);
+}
+
+.icon-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 20px;
+  min-height: 20px;
+  font-size: 0.5rem;
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+/* Badge on avatar */
+.parent-badge {
+  position: relative;
+}
+
+.avatar-badge {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+  min-width: 15px;
+  min-height: 15px;
+  border: 1px solid var(--white);
+}
+
+.avatar-badge--online {
+  background-color: var(--success);
+}
+
+.avatar-badge--offline {
+  background-color: var(--grey-400);
+}
+
+.avatar-badge--busy {
+  background-color: var(--red);
+}
+
+/* End badge css */
