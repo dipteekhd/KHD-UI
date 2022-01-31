@@ -1,0 +1,65 @@
+@import url(/common/style.css);
+
+.avatar-container {
+  height: 150px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.avatar-variants {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  background-color: var(--grey-100);
+}
+
+.avatar-variants:nth-child(3),
+.avatar-variants:nth-child(4) {
+  background-color: unset;
+}
+
+/* Start CSS for Profile Avatar  */
+.avatar-sm {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+}
+.avatar-md {
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+}
+.avatar-lg {
+  height: 64px;
+  width: 64px;
+  object-fit: cover;
+}
+.shadow {
+  box-shadow: var(--grey-200) 0px 1px 3px 0px, var(--grey-100) 0px 0px 0px 1px;
+}
+
+.avatar-letter-sm {
+  height: 32px;
+  width: 32px;
+  background-color: var(--grey-200);
+  font-size: 16px;
+}
+
+.avatar-letter-md {
+  height: 48px;
+  width: 48px;
+  background-color: var(--grey-200);
+  font-size: 16px;
+}
+
+.avatar-letter-lg {
+  height: 64px;
+  width: 64px;
+  background-color: var(--grey-200);
+  font-size: 16px;
+}
+
+/* End CSS for Profile Avatar  */
