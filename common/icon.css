@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons");
+
+.material-icons--close {
+  font-size: 1rem;
+}
+
+.material-icons--notification {
+  font-size: 2rem;
+  color: var(--primary);
+}
