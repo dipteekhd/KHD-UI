@@ -43,25 +43,24 @@
   box-shadow: var(--grey-200) 0px 1px 3px 0px, var(--grey-100) 0px 0px 0px 1px;
 }
 
+.avatar-letter {
+  background-color: var(--grey-200);
+  font-size: 16px;
+}
+
 .avatar-letter--sm {
   height: 32px;
   width: 32px;
-  background-color: var(--grey-200);
-  font-size: 16px;
 }
 
 .avatar-letter--md {
   height: 48px;
   width: 48px;
-  background-color: var(--grey-200);
-  font-size: 16px;
 }
 
 .avatar-letter--lg {
   height: 64px;
   width: 64px;
-  background-color: var(--grey-200);
-  font-size: 16px;
 }
 
 /* End CSS for Profile Avatar  */
