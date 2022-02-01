@@ -22,40 +22,42 @@
 }
 
 /* Start CSS for Profile Avatar  */
-.avatar-sm {
+.avatar {
+  object-fit: cover;
+}
+
+.avatar--sm {
   height: 32px;
   width: 32px;
-  object-fit: cover;
 }
-.avatar-md {
+.avatar--md {
   height: 48px;
   width: 48px;
-  object-fit: cover;
 }
-.avatar-lg {
+.avatar--lg {
   height: 64px;
   width: 64px;
-  object-fit: cover;
 }
+
 .shadow {
   box-shadow: var(--grey-200) 0px 1px 3px 0px, var(--grey-100) 0px 0px 0px 1px;
 }
 
-.avatar-letter-sm {
+.avatar-letter--sm {
   height: 32px;
   width: 32px;
   background-color: var(--grey-200);
   font-size: 16px;
 }
 
-.avatar-letter-md {
+.avatar-letter--md {
   height: 48px;
   width: 48px;
   background-color: var(--grey-200);
   font-size: 16px;
 }
 
-.avatar-letter-lg {
+.avatar-letter--lg {
   height: 64px;
   width: 64px;
   background-color: var(--grey-200);
