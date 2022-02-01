@@ -12,31 +12,29 @@
   max-width: 800px;
   min-width: 300px;
   display: flex;
+  color: var(--lynx-white);
 }
 
 /* Basic Alert */
 .alert--success {
   background-color: var(--success);
-  color: var(--lynx-white);
 }
 .alert--error {
   background-color: var(--danger);
-  color: var(--lynx-white);
 }
 
 .alert--warning {
   background-color: var(--warning);
-  color: var(--lynx-white);
 }
 .alert--info {
   background-color: var(--secondary);
-  color: var(--lynx-white);
 }
 
 /* Dismiss Alert */
-.alert--dismiss {
+.alert__action--dismiss {
   margin-left: auto;
   color: var(--lynx-white);
+  cursor: pointer;
 }
 
 /* Outline Alert */
