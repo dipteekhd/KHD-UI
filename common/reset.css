@@ -5,6 +5,16 @@
 }
 
 button {
-  border: none;
+  border: 0;
   background-color: unset;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+input {
+  border: 0;
+  outline: 0;
 }

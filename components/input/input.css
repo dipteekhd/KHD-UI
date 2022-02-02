@@ -1,0 +1,55 @@
+@import url(/common/style.css);
+
+.box {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  background-color: var(--grey-100);
+  align-items: center;
+}
+
+.radio-container,
+.checkbox-container {
+  display: flex;
+}
+
+/* Text input */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input[type="text"] {
+  border: 1px solid var(--grey);
+  width: 80%;
+}
+
+input[type="text"]:focus {
+  border: 1px solid var(--secondary);
+}
+
+input[type="text"].input-error,
+input[type="text"].input-error:focus {
+  border-color: var(--danger);
+}
+
+/* Radio & checkbox Input */
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+input[type="radio"]:disabled,
+input[type="checkbox"]:disabled {
+  cursor: default;
+}
+
+.radio-options--row {
+  display: flex;
+}
+.radio-options--col {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Input</title>
+</head>
+
+<body>
+
+    <div class="box">
+
+        <!-- Text input -->
+        <div class="input-container p-md-all">
+            <label for="id1">Label</label>
+            <input id="id1" class="p-xs-all" type="text" placeholder="Placeholder">
+        </div>
+
+        <div class="input-container p-md-all">
+            <label for="id2">Label</label>
+            <input id="id2" class="input-error p-xs-all" type="text" placeholder="Placeholder">
+            <p class="error-msg">Error message !</p>
+        </div>
+
+
+        <!-- Radio types -->
+        <div class="radio-container m-sm-vr">
+            <label for="id3" class="m-sm-r">
+                <span><input id="id3" type="radio" checked></span>
+            </label>
+
+            <label for="id4" class="m-sm-r">
+                <span><input id="id4" type="radio"></span>
+            </label>
+
+            <label for="id5" class="m-sm-r">
+                <span><input id="id5" type="radio" checked disabled></span>
+            </label>
+
+            <label for="id6" class="m-sm-r">
+                <span><input id="id6" type="radio" disabled></span>
+            </label>
+        </div>
+
+        <!-- Checkbox types -->
+        <div class="checkbox-container m-sm-vr">
+            <label for="id7" class="m-sm-r">
+                <span><input id="id7" type="checkbox" checked></span>
+            </label>
+
+            <label for="id8" class="m-sm-r">
+                <span><input id="id8" type="checkbox"></span>
+            </label>
+
+            <label for="id9" class="m-sm-r">
+                <span><input id="id9" type="checkbox" checked disabled></span>
+            </label>
+
+            <label for="id10" class="m-sm-r">
+                <span><input id="id10" type="checkbox" disabled></span>
+            </label>
+        </div>
+
+        <!-- Examle -->
+        <div class="radio-options radio-options--row m-sm-vr">
+            <label for="id11" class="m-sm-r">
+                <span><input id="id11" type="radio" name="rank" checked></span>
+                <span>First</span>
+            </label>
+
+            <label for="id12" class="m-sm-r">
+                <span><input id="id12" type="radio" name="rank"></span>
+                <span>Second</span>
+            </label>
+        </div>
+
+        <div class="radio-options radio-options--col m-sm-vr">
+            <label for="id13" class="m-sm-t">
+                <span><input id="id13" type="radio" name="rank" checked></span>
+                <span>First</span>
+            </label>
+
+            <label for="id14" class="m-sm-t">
+                <span><input id="id14" type="radio" name="rank"></span>
+                <span>Second</span>
+            </label>
+        </div>
+    </div>
+</body>
+
+</html>

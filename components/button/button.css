@@ -1,0 +1,116 @@
+@import url(/common/style.css);
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-variant {
+  display: flex;
+}
+
+/* Button css start  */
+
+.btn {
+  color: var(--white);
+  cursor: pointer;
+}
+
+/* Contained  */
+.btn--default {
+  background-color: var(--grey-400);
+}
+
+.btn--primary {
+  background-color: var(--primary);
+}
+
+.btn--success {
+  background-color: var(--success);
+}
+
+.btn--error {
+  background-color: var(--danger);
+}
+
+.btn--default-disabled {
+  background-color: var(--grey-200);
+  color: var(--grey-400);
+  cursor: default;
+}
+
+.btn--primary-disabled {
+  background-color: var(--primary-100);
+  color: var(--primary-300);
+  cursor: default;
+}
+
+/* Outline */
+.btn--default-outline {
+  color: var(--grey-400);
+  border: 1px solid var(--grey-400);
+}
+
+.btn--primary-outline {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn--success-outline {
+  border: 1px solid var(--success);
+  color: var(--success);
+}
+
+.btn--error-outline {
+  border: 1px solid var(--danger);
+  color: var(--danger);
+}
+
+.btn--default-outline-disabled {
+  color: var(--grey-300);
+  border: 1px solid var(--grey-300);
+  cursor: default;
+}
+
+.btn--primary-outline-disabled {
+  color: var(--primary-200);
+  border: 1px solid var(--primary-200);
+  cursor: default;
+}
+
+/* Text */
+.btn--default-text {
+  color: var(--grey-400);
+}
+.btn--primary-text {
+  color: var(--primary);
+}
+
+/* Link */
+.btn--primary-link {
+  color: var(--grey);
+}
+
+.btn--primary-link:hover {
+  color: var(--primary);
+}
+
+/* Button hover */
+.btn--default-text:hover {
+  background-color: var(--grey-100);
+}
+.btn--primary-text:hover {
+  background-color: var(--primary-100);
+}
+
+.btn--primary:hover,
+.btn--primary-outline:hover,
+.btn--default:hover,
+.btn--default-outline:hover,
+.btn--success:hover,
+.btn--success-outline:hover,
+.btn--error:hover,
+.btn--error-outline:hover {
+  box-shadow: 0 4px 14px var(--grey-300);
+}
+/* Button css end  */
