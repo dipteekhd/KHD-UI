@@ -2,7 +2,7 @@
   --primary: #fb923c;
   --primary-300: #fdba74;
   --primary-200: #fed7aa;
-  --primary-100: #ffedd5;
+  --primary-100: #ffedd5; /*hover*/
   --primary-50: #fff7ed;
 
   --secondary: #005062;
@@ -19,6 +19,7 @@
   --grey-200: #e5e7eb;
   --grey-300: #d1d5db;
   --grey-400: #9ca3af;
+  --grey-500: #6b7280;
 
   --black: #282828;
   --light-black: #000;

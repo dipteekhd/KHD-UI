@@ -1,0 +1,118 @@
+@import url(/common/style.css);
+@import url(/components/button/button.css);
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--grey-100);
+}
+
+/* Basic Card */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  height: max-content;
+  background-color: var(--white);
+  border: 1px solid var(--grey-100);
+  margin: 1rem;
+}
+
+.card__information {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__information.card__information--row {
+  flex-direction: row;
+}
+
+.card__information:hover {
+  background-color: var(--primary-100);
+}
+
+.card__media {
+  object-fit: cover;
+  height: 12.5rem;
+  max-width: 100%;
+  display: flex;
+}
+
+.card__action-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__action-icons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.card__action--icon {
+  height: 45px;
+  width: 45px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Full width button card */
+
+.card__media--tall {
+  height: 19rem;
+}
+
+.card__action-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Horizontal card */
+.card.card--hr {
+  flex-direction: row;
+  width: 34rem;
+}
+.card__media.card__media--hr {
+  width: 14rem;
+  height: auto;
+}
+.card__info-action {
+  flex: 1;
+}
+
+/* Icon and badge */
+.card__badge-icon {
+  position: relative;
+}
+.card__badge {
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.card__action--like {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: var(--white);
+}
+
+.card__action--like:hover {
+  background-color: unset;
+}
+@media screen and (max-width: 500px) {
+  .card.card--hr {
+    flex-direction: column;
+    width: 22rem;
+  }
+  .card__media.card__media--hr {
+    width: 100%;
+    height: auto;
+  }
+}
