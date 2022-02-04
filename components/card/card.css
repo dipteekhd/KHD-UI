@@ -1,5 +1,5 @@
-@import url(/common/style.css);
-@import url(/components/button/button.css);
+@import url("/common/style.css");
+@import url("/components/button/button.css");
 
 .card-section {
   display: flex;
