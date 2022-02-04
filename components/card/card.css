@@ -17,6 +17,7 @@
   background-color: var(--white);
   border: 1px solid var(--grey-100);
   margin: 1rem;
+  position: relative;
 }
 
 .card__information {
@@ -106,6 +107,24 @@
 .card__action--like:hover {
   background-color: unset;
 }
+.card__close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: var(--primary);
+}
+
+.card__text-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card__primary-info--overlay {
+  position: absolute;
+  color: var(--white);
+}
+
 @media screen and (max-width: 500px) {
   .card.card--hr {
     flex-direction: column;
