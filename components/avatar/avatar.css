@@ -24,6 +24,7 @@
 /* Start CSS for Profile Avatar  */
 .avatar {
   object-fit: cover;
+  cursor: pointer;
 }
 
 .avatar--sm {
@@ -46,6 +47,7 @@
 .avatar-letter {
   background-color: var(--grey-200);
   font-size: 16px;
+  cursor: pointer;
 }
 
 .avatar-letter--sm {
