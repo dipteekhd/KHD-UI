@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="list.css">
+    <title>List</title>
+</head>
+
+<body>
+
+    <!-- Basic list -->
+    <section class="m-sm-all">
+        <ul class="list list--border">
+            <li class="list__item list__item--active p-xs-all">Item-1</li>
+            <li class="list__item p-xs-all">Item-2</li>
+            <li class="list__item p-xs-all">Item-3</li>
+            <li class="list__item list__item--disabled p-xs-all">Item-4</li>
+        </ul>
+    </section>
+
+    <!-- Basic list with headings and links-->
+    <section class="m-sm-all">
+        <ul class="list list--border">
+            <div class="m-xs-all">
+                <h4>Heading-1</h4>
+            </div>
+            <li class="list__item list__item--active p-xs-vr p-sm-hr m-xs-all">
+                <a class="list__link" href="#">Link-1</a>
+            </li>
+            <li class="list__item p-xs-vr p-sm-hr m-xs-all">
+                <a class="list__link" href="#">Link-2</a>
+            </li>
+            <div class="m-xs-all ">
+                <h4>Heading-2</h4>
+            </div>
+            <li class="list__item p-xs-vr p-sm-hr m-xs-all">
+                <a class="list__link" href="#">Link-3</a>
+            </li>
+            <li class="list__item  p-xs-vr p-sm-hr m-xs-all">
+                <a class="list__link" href="#">Link-4</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Radio list -->
+    <section class="m-sm-all">
+        <ul class="list">
+            <div class="m-xs-all ">
+                <h4>Radio Category</h4>
+            </div>
+            <li class="list__input m-xs-all">
+                <label for="id-1" class="center-content">
+                    <input id="id-1" type="radio" class="m-xs-r" name="I1" checked>
+                    Item-1
+                </label>
+            </li>
+            <li class="list__input m-xs-all">
+                <label for="id-2" class="center-content">
+                    <input id="id-2" type="radio" class="m-xs-r" name="I1">
+                    Item-2
+                </label>
+            </li>
+        </ul>
+
+        </div>
+    </section>
+
+    <!-- Check box list -->
+    <section class="m-sm-all">
+        <ul class="list">
+            <div class="m-xs-all ">
+                <h4>Checkbox Category</h4>
+            </div>
+            <li class="list__input m-xs-all">
+                <label for="id-3" class="center-content">
+                    <input id="id-3" type="checkbox" class="m-xs-r" checked>
+                    Item-1
+                </label>
+            </li>
+            <li class="list__input m-xs-all">
+                <label for="id-4" class="center-content">
+                    <input id="id-4" type="checkbox" class="m-xs-r">
+                    Item-2
+                </label>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
