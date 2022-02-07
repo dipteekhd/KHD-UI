@@ -1,15 +1,3 @@
-@import url(/common/style.css);
-@import url(/components/avatar/avatar.css);
-
-.badge-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.badge-variant {
-  display: flex;
-}
-
 /* Start badge css */
 /* Badge on icons */
 .button-icon {

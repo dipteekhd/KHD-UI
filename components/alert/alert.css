@@ -1,11 +1,3 @@
-@import url(/common/style.css);
-
-.alert-container {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--grey-100);
-}
-
 /* Start Alert CSS  */
 
 .alert {
