@@ -8,6 +8,9 @@
   display: flex;
   align-items: center;
   border-bottom: 2px solid var(--grey-100);
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
 }
 .header__wrapper {
   flex: 1;
