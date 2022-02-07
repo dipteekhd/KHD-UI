@@ -1,12 +1,3 @@
-@import url("/common/style.css");
-@import url("/components/button/button.css");
-
-.card-section {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: var(--grey-100);
-}
-
 /* Basic Card */
 
 .card {
