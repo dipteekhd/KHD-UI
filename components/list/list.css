@@ -1,0 +1,47 @@
+@import url("/common/style.css");
+@import url("/components/input/input.css");
+
+section {
+  max-width: 15rem;
+}
+
+/* Basic List */
+
+.list {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.list__item {
+  display: flex;
+}
+.list__link {
+  flex: 1;
+}
+
+.list--border {
+  border: 1px solid var(--grey-200);
+}
+
+.list__item:hover {
+  background-color: var(--grey-200);
+}
+
+.list__item--active,
+.list__item--active:hover {
+  background-color: var(--primary-100);
+}
+
+.list__item--disabled {
+  color: var(--grey-300);
+}
+
+/* Radio-checkbox input List */
+.list__input {
+  display: flex;
+  align-items: center;
+}
+
+.list__input label {
+  cursor: pointer;
+}
