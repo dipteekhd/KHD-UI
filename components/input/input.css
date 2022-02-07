@@ -1,18 +1,3 @@
-@import url(/common/style.css);
-
-.box {
-  display: flex;
-  flex-direction: column;
-  max-width: 800px;
-  background-color: var(--grey-100);
-  align-items: center;
-}
-
-.radio-container,
-.checkbox-container {
-  display: flex;
-}
-
 /* Text input */
 .input-container {
   display: flex;
@@ -44,12 +29,4 @@ input[type="checkbox"]:hover {
 input[type="radio"]:disabled,
 input[type="checkbox"]:disabled {
   cursor: default;
-}
-
-.radio-options--row {
-  display: flex;
-}
-.radio-options--col {
-  display: flex;
-  flex-direction: column;
 }
