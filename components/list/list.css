@@ -1,12 +1,4 @@
-@import url("/common/style.css");
-@import url("/components/input/input.css");
-
-section {
-  max-width: 15rem;
-}
-
 /* Basic List */
-
 .list {
   display: flex;
   flex-direction: column;
