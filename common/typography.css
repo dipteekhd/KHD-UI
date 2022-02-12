@@ -1,4 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins&display=swap");
 @import url(color.css);
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
 
 /* Headings */
 h1 {
@@ -35,8 +40,8 @@ h5 {
 .bold-font {
   font-weight: 700;
 }
-.extrabold-font {
-  font-weight: 800;
+.bold-font {
+  font-weight: 900;
 }
 
 /* Text */
