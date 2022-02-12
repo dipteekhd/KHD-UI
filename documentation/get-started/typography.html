@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/component.css">
+    <link rel="stylesheet" href="../docs.css">
+    <title>Typography</title>
+</head>
+
+<body>
+    <!-- Start Navigation-->
+    <header class="header">
+        <div class="header__wrapper p-sm-vr">
+            <div class="header__title p-sm-hr">
+                <h3><a href="/index.html">KHD-UI</a></h3>
+            </div>
+            <nav class="header__action">
+                <a class="btn btn--primary-link semibold-font m-sm-r nav-link nav-link"
+                    href="/documentation/get-started/introduction.html">Docs</a>
+            </nav>
+        </div>
+        <a class="m-sm-r" href="https://github.com/dipteekhd/KHD-UI" target="blank">
+            <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true">
+                <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
+        </a>
+    </header>
+
+    <div class="menu">
+        <button class="menu__button center-content btn btn--primary-text p-xs-vr p-sm-hr rounded-circle semibold-font">
+            <i class="material-icons" aria-hidden="true">
+                menu
+            </i>
+        </button>
+    </div>
+
+    <div class="content">
+        <aside class="drawer drawer--permanent p-lg-vr">
+            <nav>
+                <ul class="list">
+                    <div class="m-xs-all">
+                        <h4>Getting started</h4>
+                    </div>
+                    <li class="list__item p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link" href="/documentation/get-started/introduction.html">Introduction</a>
+                    </li>
+                    <li class="list__item p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link" href="/documentation/get-started/colors.html">Colors</a>
+                    </li>
+                    <li class="list__item list__item--active p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link" href="/documentation/get-started/typography.html">Typography</a>
+                    </li>
+                    <div class="m-xs-all ">
+                        <h4>Components</h4>
+                    </div>
+                    <li class="list__item p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link" href="/documentation/components/avatar/avatar-doc.html">Avatar</a>
+                    </li>
+                    <li class="list__item  p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link " href="/documentation/components/alert/alert-doc.html">Alert</a>
+                    </li>
+                    <li class="list__item  p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link " href="/documentation/components/badge/badge-doc.html">Badge</a>
+                    </li>
+                    <li class="list__item  p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link " href="">Button</a>
+                    </li>
+                    <li class="list__item  p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link " href="">Card</a>
+                    </li>
+                    <li class="list__item  p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link " href="">Image</a>
+                    </li>
+                    <li class="list__item  p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link " href="">Input</a>
+                    </li>
+                    <li class="list__item  p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link " href="">List</a>
+                    </li>
+                    <li class="list__item  p-xs-vr p-sm-hr m-xs-all">
+                        <a class="list__link " href="">Navigation</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- End Navigation-->
+
+        <main id="main-content" class="p-lg-all">
+            <div id="main-content">
+                <h2 class="m-sm-b">Typography</h2>
+                <p class="text-sm m-sm-b">Use typography to present your design and content as clearly and efficiently
+                    as possible.
+                </p>
+                <h3 class="m-sm-vr">Font Family</h3>
+                <p class="text-sm m-sm-b">
+                    The <span class="bold-font">Nunito and Nunito Sans</span> font will be automatically loaded by
+                    KHD-UI for body text and headings respectively.
+                </p>
+                <div class="code-ss">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28245%2C245%2C245%2C1%29&t=blackboard&wt=sharp&l=auto&width=620.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=124%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2540import%2520url%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%28%2522https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253F%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520family%253DNunito%253Awght%2540300%253B400%253B600%253B700%253B%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520800%2526display%253Dswap%2522%29%253B%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2540import%2520url%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%28%2522https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520family%253DNunito%252BSans%2526display%253Dswap%2522%29%253B"
+                        style="width: 100%; height: 255px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <!-- Headings -->
+                <h3 class="m-sm-vr">Headings</h3>
+                <div class="demo demo--column p-sm-all">
+                    <h1 class="m-sm-b">h1 Heading</h1>
+                    <h2 class="m-sm-b">h2 Heading</h2>
+                    <h3 class="m-sm-b">h3 Heading</h3>
+                    <h4 class="m-sm-b">h4 Heading</h4>
+                    <h5 class="m-sm-b">h5 Heading</h5>
+                </div>
+
+                <!-- Font size -->
+                <h3 class="m-sm-vr">Font size</h3>
+                <p class="text-sm m-sm-b"> Control the font size of an element using the <span
+                        class="bold-font">text-{size}</span> utilities.</p>
+                <div class="demo demo--column p-sm-all">
+                    <div class="m-sm-b">
+                        <span class="text-sm text-grey-500">text-xl</span>
+                        <p class="text-xl">Extra large text</p>
+                    </div>
+                    <div class="m-sm-b">
+                        <span class="text-sm text-grey-500">text-lg</span>
+                        <p class="text-lg">Large text</p>
+                    </div>
+                    <div class="m-sm-b">
+                        <span class="text-sm text-grey-500">text-md</span>
+                        <p class="text-md">Medium text</p>
+                    </div>
+                    <div class="m-sm-b">
+                        <span class="text-sm text-grey-500">text-sm</span>
+                        <p class="text-sm">Small text</p>
+                    </div>
+                    <div class="m-sm-b">
+                        <span class="text-sm text-grey-500">text-xs</span>
+                        <p class="text-xs">Extra small text</p>
+                    </div>
+                </div>
+
+                <!-- Font weight -->
+                <h3 class="m-sm-vr">Font weight</h3>
+                <p class="text-sm m-sm-b"> Control the font weight of an element using the <span
+                        class="bold-font">{weight}-font</span> utilities.</p>
+                <div class="demo demo--column p-sm-all">
+                    <div class="m-sm-b">
+                        <span class="text-sm text-grey-500">light-font</span>
+                        <p class="light-font">Light font text</p>
+                    </div>
+                    <div class="m-sm-b">
+                        <span class="text-sm text-grey-500">regular-font</span>
+                        <p class="regular-font">Regular font text</p>
+                    </div>
+                    <div class="m-sm-b">
+                        <span class="text-sm text-grey-500">semibold-font</span>
+                        <p class="semibold-font">Semibold font text</p>
+                    </div>
+                    <div class="m-sm-b">
+                        <span class="text-sm text-grey-500">bold-font</span>
+                        <p class="bold-font">Bold font text</p>
+                    </div>
+                    <div class="m-sm-b">
+                        <span class="text-sm text-grey-500">extrabold-font</span>
+                        <p class="extrabold-font">Extrabold font text</p>
+                    </div>
+                </div>
+
+                <!-- Padding -->
+                <h3 class="m-sm-vr">Spacing - Padding</h3>
+                <p class="text-sm m-sm-b"> Control the padding of an element using
+                    <span class="bold-font">p-{size}-{direction}</span> utilities.
+                </p>
+                <p class="m-sm-b"> size : { xs | sm | md | lg | xl | xxl } </p>
+                <p class="m-sm-b"> direction : { t | b | l | r | vr | hr | all } </p>
+
+                <div class="demo demo--row demo--spacing p-sm-all">
+                    <div class="p-sm-t m-sm-all">p-sm-t</div>
+                    <div class="p-sm-b m-sm-all">p-sm-b</div>
+                    <div class="p-sm-l m-sm-all">p-sm-l</div>
+                    <div class="p-sm-r m-sm-all">p-sm-r</div>
+                    <div class="p-sm-vr m-sm-all">p-sm-vr</div>
+                    <div class="p-sm-hr m-sm-all">p-sm-hr</div>
+                    <div class="p-sm-all m-sm-all">p-sm-all</div>
+                </div>
+
+                <!-- Margin -->
+                <h3 class="m-sm-vr">Spacing - Margin</h3>
+                <p class="text-sm m-sm-b"> Control the margin of an element using
+                    <span class="bold-font">m-{size}-{direction}</span> utilities.
+                </p>
+                <p class="m-sm-b"> size : { xs | sm | md | lg | xl | xxl } </p>
+                <p class="m-sm-b"> direction : { t | b | l | r | vr | hr | all } </p>
+
+                <div class="demo demo--row demo--spacing p-sm-all">
+                    <div class="m-sm-all">
+                        <div class="m-sm-t">m-sm-t</div>
+                    </div>
+                    <div class="m-sm-all">
+                        <div class="m-sm-b">m-sm-b</div>
+                    </div>
+                    <div class="m-sm-all">
+                        <div class="m-sm-l">m-sm-l</div>
+                    </div>
+                    <div class="m-sm-all">
+                        <div class="m-sm-r">m-sm-r</div>
+                    </div>
+                    <div class="m-sm-all">
+                        <div class="m-sm-vr">m-sm-vr</div>
+                    </div>
+                    <div class="m-sm-all">
+                        <div class="m-sm-hr">m-sm-hr</div>
+                    </div>
+                    <div class="m-sm-all">
+                        <div class="m-sm-all">m-sm-all</div>
+                    </div>
+                </div>
+
+                <!-- Border Radius -->
+                <h3 class="m-sm-vr">Border Radius</h3>
+                <p class="text-sm m-sm-b"> Use
+                    <span class=" bold-font">rounded-sm, rounded-md, rounded-lg, rounded-cirlce</span>
+                    utilities for adding border radius to an element.
+                </p>
+                <div class="demo demo--row demo--border p-sm-all">
+                    <div class="m-sm-all rounded-sm"></div>
+                    <div class="m-sm-all rounded-md"></div>
+                    <div class="m-sm-all rounded-lg"></div>
+                    <div class="m-sm-all rounded-circle"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="/documentation/docs.js"></script>
+</body>
+
+</html>
