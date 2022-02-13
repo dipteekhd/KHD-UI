@@ -30,6 +30,11 @@ header {
   flex-flow: row wrap;
   justify-content: center;
 }
+.demo__list {
+  max-width: 15rem;
+  margin: 0 auto;
+}
+
 .code-ss {
   background-color: var(--lynx-white);
 }
@@ -53,7 +58,7 @@ header {
     display: block !important;
     position: sticky;
     top: 4rem;
-    height: 50rem;
+    height: 45rem;
     overflow-y: auto;
   }
 }
