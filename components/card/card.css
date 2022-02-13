@@ -6,7 +6,6 @@
   width: 22rem;
   height: max-content;
   background-color: var(--white);
-  border: 1px solid var(--grey-100);
   margin: 1rem;
   position: relative;
 }
@@ -31,6 +30,12 @@
   display: flex;
 }
 
+.card .card__media {
+  border-radius: 5px 5px 0 0;
+}
+.card--hr .card__media {
+  border-radius: 5px 0 0 5px;
+}
 .card__action-container {
   flex: 1;
   display: flex;
@@ -86,6 +91,7 @@
   left: -5px;
   background-color: var(--secondary);
   color: var(--white);
+  padding: 4px;
 }
 
 .card__action--like {
