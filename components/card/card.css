@@ -6,7 +6,6 @@
   width: 22rem;
   height: max-content;
   background-color: var(--white);
-  margin: 1rem;
   position: relative;
 }
 
@@ -131,10 +130,5 @@
   .card__media.card__media--hr {
     width: 100%;
     height: auto;
-  }
-}
-@media screen and (max-width: 430px) {
-  .card__action-icons button:nth-child(2) {
-    display: none;
   }
 }
