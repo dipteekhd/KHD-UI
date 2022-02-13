@@ -7,6 +7,7 @@
 button {
   border: 0;
   background-color: unset;
+  font-family: inherit;
 }
 
 a {
