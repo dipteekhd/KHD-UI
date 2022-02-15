@@ -1,0 +1,147 @@
+header {
+  z-index: 1;
+}
+.start-page {
+  height: 100vh;
+}
+.start {
+  flex-direction: column;
+  height: 20rem;
+  width: 25rem;
+  border: 1px solid var(--primary);
+  background-color: var(--primary-100);
+}
+
+/* Demo view */
+.demo {
+  background-color: var(--lynx-white);
+}
+.demo--white {
+  background-color: var(--white);
+  border: 1px solid var(--lynx-white);
+}
+.demo--column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.demo--row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.demo__list {
+  max-width: 15rem;
+  margin: 0 auto;
+}
+
+.code-ss {
+  background-color: var(--lynx-white);
+}
+
+#main-content {
+  width: 100%;
+}
+@media screen and (min-width: 1000px) {
+  #main-content {
+    width: 80%;
+  }
+}
+
+/* Sidebar/Drawer toggle */
+.drawer {
+  display: none;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .drawer {
+    display: block !important;
+    position: sticky;
+    top: 4rem;
+    height: 45rem;
+    overflow-y: auto;
+  }
+}
+
+/* Color doc css */
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+}
+.color-palette > * {
+  height: 8rem;
+  width: 8rem;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.primary {
+  background-color: var(--primary);
+}
+.secondary {
+  background-color: var(--secondary);
+}
+.success {
+  background-color: var(--success);
+}
+.danger {
+  background-color: var(--danger);
+}
+.warning {
+  background-color: var(--warning);
+}
+
+.grey {
+  background-color: var(--grey);
+}
+.grey-100 {
+  background-color: var(--grey-100);
+}
+.grey-200 {
+  background-color: var(--grey-200);
+}
+.grey-300 {
+  background-color: var(--grey-300);
+}
+.grey-400 {
+  background-color: var(--grey-400);
+}
+.grey-500 {
+  background-color: var(--grey-500);
+}
+
+.primary-50 {
+  background-color: var(--primary-50);
+}
+.primary-100 {
+  background-color: var(--primary-100);
+}
+.primary-200 {
+  background-color: var(--primary-200);
+}
+.primary-300 {
+  background-color: var(--primary-300);
+}
+
+.color-palette--primary > *,
+.color-palette--grey > * {
+  color: var(--black);
+}
+
+/* Typography doc css */
+.demo--spacing > div {
+  border: 1px solid var(--primary-300);
+  height: max-content;
+}
+.demo--spacing > div > div {
+  height: max-content;
+  background-color: var(--primary-200);
+}
+.demo--border > div {
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--primary-200);
+}
