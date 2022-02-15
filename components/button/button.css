@@ -83,7 +83,9 @@
 .btn--primary-link:hover {
   color: var(--primary);
 }
-
+.btn--active {
+  color: var(--primary);
+}
 /* Button hover */
 .btn--default-text:hover {
   background-color: var(--grey-100);
