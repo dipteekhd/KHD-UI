@@ -7,3 +7,9 @@
 .error-msg {
   color: var(--danger);
 }
+
+.center-content-1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
