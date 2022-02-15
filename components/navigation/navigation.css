@@ -17,10 +17,6 @@
   color: var(--primary);
 }
 
-.nav-link--active {
-  color: var(--primary);
-}
-
 /* For mobile view */
 .menu {
   border-bottom: 2px solid var(--grey-100);
