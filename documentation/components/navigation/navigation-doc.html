@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/component.css">
+    <link rel="stylesheet" href="/documentation/docs.css">
+    <title>Navigation</title>
+</head>
+
+<body>
+    <!-- Start Navigation-->
+    <header class="header">
+        <div class="header__wrapper p-sm-vr">
+            <div class="header__title p-sm-hr">
+                <h3><a href="/index.html">KHD-UI</a></h3>
+            </div>
+            <nav class="header__action">
+                <a class="btn btn--primary-link semibold-font m-sm-r nav-link nav-link"
+                    href="/documentation/get-started/introduction.html">Docs</a>
+            </nav>
+        </div>
+        <a class="m-sm-r" href="https://github.com/dipteekhd/KHD-UI" target="blank">
+            <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true">
+                <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
+        </a>
+    </header>
+
+    <div class="menu">
+        <button class="menu__button center-content btn btn--primary-text p-xs-vr p-sm-hr rounded-circle semibold-font">
+            <i class="material-icons" aria-hidden="true">
+                menu
+            </i>
+        </button>
+    </div>
+
+    <div class="content">
+        <aside class="drawer drawer--permanent p-lg-vr">
+            <nav>
+                <ul class="list">
+                    <div class="m-xs-all">
+                        <h4>Getting started</h4>
+                    </div>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/get-started/introduction.html">Introduction</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr" href="/documentation/get-started/colors.html">Colors</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/get-started/typography.html">Typography</a>
+                    </li>
+                    <div class="m-xs-all ">
+                        <h4>Components</h4>
+                    </div>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/avatar/avatar-doc.html">Avatar</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/alert/alert-doc.html">Alert</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/badge/badge-doc.html">Badge</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/button/button-doc.html">Button</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/card/card-doc.html">Card</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/image/image-doc.html">Image</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/input/input-doc.html">Input</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/list/list-doc.html">List</a>
+                    </li>
+                    <li class="list__item list__item--active m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/navigation/navigation-doc.html">Navigation</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- End Navigation-->
+
+        <main id="main-content" class="p-lg-all">
+            <div id="main-content">
+                <h2 class="m-sm-b">Navbar</h2>
+                <h3 class="m-sm-vr">Top App Bar</h3>
+                <p class="text-sm m-sm-b">Top App Bars are a container for items such as application title, navigation
+                    icon, and action items.</p>
+
+                <div class="demo  p-xs-all">
+                    <header class="header">
+                        <div class="header__wrapper p-sm-vr">
+                            <div class="header__title p-sm-hr">
+                                <h3><a href="#">Brand Name</a></h3>
+                            </div>
+                            <nav class="header__action">
+                                <a class="btn btn--primary-link btn--active semibold-font m-lg-r" href="#">Link-1</a>
+                                <a class="btn btn--primary-link semibold-font m-lg-r" href="#">Link-2</a>
+                                <a class="btn btn--primary-link semibold-font m-lg-r" href="#">Link-3</a>
+                            </nav>
+                        </div>
+                        <img src="/assets/images/Ayushman.jpg" class="avatar avatar--sm rounded-circle m-md-r"
+                            alt="Avatar" />
+                    </header>
+                </div>
+                <div class="code-ss">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28245%2C245%2C245%2C1%29&t=blackboard&wt=sharp&l=auto&width=966.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=16px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=15px&lh=124%25&si=false&es=2x&wm=false&code=%2520%253Cheader%2520class%253D%2522header%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header__wrapper%2520p-sm-vr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header__title%2520p-sm-hr%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%253Ca%2520href%253D%2522%2523%2522%253EBrand%2520Name%253C%252Fa%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522header__action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn--primary-link%2520btn--active%2520semibold-font%2520m-lg-r%2522%2520href%253D%2522%2523%2522%253ELink-1%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn--primary-link%2520semibold-font%2520m-lg-r%2522%2520href%253D%2522%2523%2522%253ELink-2%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn%2520btn--primary-link%2520semibold-font%2520m-lg-r%2522%2520href%253D%2522%2523%2522%253ELink-3%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252FAyushman.jpg%2522%2520class%253D%2522avatar%2520avatar--sm%2520rounded-circle%2520m-md-r%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%253C%252Fheader%253E"
+                        style="width: 100%; height: 450px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="/documentation/docs.js"></script>
+</body>
+
+</html>
