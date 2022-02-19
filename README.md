@@ -6,7 +6,7 @@ KHD-UI is an open source HTML-CSS component library, which helps web developers 
 
 Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS.
 
-- <link rel="stylesheet" href="https://khd-ui.netlify.app/css/component.css">
+- `<link rel="stylesheet" href="https://khd-ui.netlify.app/css/component.css">`
 
 # Technologies
 
