@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/component.css">
+    <link rel="stylesheet" href="/documentation/docs.css">
+    <title>MODAL</title>
+</head>
+
+<body>
+    <!-- Start Navigation-->
+    <header class="header">
+        <div class="header__wrapper p-sm-vr">
+            <div class="header__title p-sm-hr">
+                <h3><a href="/index.html">KHD-UI</a></h3>
+            </div>
+            <nav class="header__action">
+                <a class="btn btn--primary-link semibold-font m-sm-r nav-link nav-link"
+                    href="/documentation/get-started/introduction.html">Docs</a>
+            </nav>
+        </div>
+        <a class="m-sm-r" href="https://github.com/dipteekhd/KHD-UI" target="blank">
+            <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true">
+                <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
+        </a>
+    </header>
+
+    <div class="menu">
+        <button class="menu__button center-content btn btn--primary-text p-xs-vr p-sm-hr rounded-circle semibold-font">
+            <i class="material-icons" aria-hidden="true">
+                menu
+            </i>
+        </button>
+    </div>
+
+    <div class="content">
+        <aside class="drawer drawer--permanent p-lg-vr">
+            <nav>
+                <ul class="list">
+                    <div class="m-xs-all">
+                        <h4>Getting started</h4>
+                    </div>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/get-started/introduction.html">Introduction</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr" href="/documentation/get-started/colors.html">Colors</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/get-started/typography.html">Typography</a>
+                    </li>
+                    <div class="m-xs-all ">
+                        <h4>Components</h4>
+                    </div>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/avatar/avatar-doc.html">Avatar</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/alert/alert-doc.html">Alert</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/badge/badge-doc.html">Badge</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/button/button-doc.html">Button</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/card/card-doc.html">Card</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/image/image-doc.html">Image</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/input/input-doc.html">Input</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/list/list-doc.html">List</a>
+                    </li>
+                    <li class="list__item m-xs-all">
+                        <a class="list__link p-xs-vr p-sm-hr"
+                            href="/documentation/components/navigation/navigation-doc.html">Navigation</a>
+                    </li>
+                    <li class="list__item list__item--active m-xs-all">
+                        <a class="list__link  p-xs-vr p-sm-hr"
+                            href="/documentation/components/modal/modal-doc.html">Modal</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- End Navigation-->
+
+        <main id="main-content" class="p-lg-all">
+            <div id="main-content">
+                <h2 class="m-sm-b">Modal Dialog</h2>
+                <p class="text-sm m-sm-b">Dialogs inform users about a task and can contain critical information,
+                    require decisions, or involve multiple tasks.
+                </p>
+                <p class="text-sm m-sm-b">Dialogs disable all app functionality when they appear, and remain on screen
+                    until confirmed, dismissed, or a required action has been taken..</p>
+
+                <h3 class=" m-sm-vr">Simple dialog</h3>
+                <div class="demo  p-xs-all">
+                    <button id="showModal-simple"
+                        class="btn btn--primary p-xs-vr p-sm-hr rounded-sm bold-font m-md-all">OPEN
+                        SIMPLE
+                        MODAL</button>
+                </div>
+                <div class="code-ss">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28245%2C245%2C245%2C1%29&t=seti&wt=none&l=auto&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522appModal-simple%2522%2520class%253D%2522backdrop%2522%253E%250A%253Cdiv%2520class%253D%2522simple-dialog%2520m-sm-vr%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-container%2520rounded-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-message%2520p-sm-all%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ESet%2520up%2520account%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-actions%2520p-sm-all%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-actions__container%2520m-sm-b%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fimages%252FAyushman.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar--md%2520rounded-circle%2522%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-actions__button%2520p-xs-hr%2520m-sm-l%2522%253Eayushman%2540gmail.com%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-actions__container%2520m-sm-b%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%2520%252Fassets%252Fimages%252FAyushman.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar--md%2520rounded-circle%2522%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-actions__button%2520p-xs-hr%2520m-sm-l%2522%253Ekd%2540gmail.com%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-actions__container%2520m-sm-b%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar--md%2520avatar--new%2520rounded-circle%2520center-content%2520bold-font%2520text-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520add%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-actions__button%2520p-xs-hr%2520m-sm-l%2522%253EAdd%2520account%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 763px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h3 class=" m-sm-vr">Alert dialog</h3>
+                <div class="demo  p-xs-all">
+                    <button id="showModal-alert"
+                        class="btn btn--primary p-xs-vr p-sm-hr rounded-sm bold-font m-md-all">OPEN
+                        ALERT
+                        MODAL</button>
+                </div>
+                <div class="code-ss">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28245%2C245%2C245%2C1%29&t=seti&wt=none&l=auto&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522appModal-alert%2522%2520class%253D%2522backdrop%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-dialog%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2520rounded-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-message%2520p-sm-all%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EDiscard%2520Drafts%253F%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-actions%2520p-sm-all%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522cancelModal-alert%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520btn--default-text%2520p-xs-vr%2520p-sm-hr%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rounded-sm%2520bold-font%2520m-xs-r%2522%253ECANCEL%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary-text%2520p-xs-vr%2520p-sm-hr%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rounded-sm%2520bold-font%2522%253EDISCARD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                        style="width: 100%; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h3 class=" m-sm-vr">Confirmation dialog</h3>
+                <div class="demo  p-xs-all">
+                    <button id="showModal-confirm"
+                        class="btn btn--primary p-xs-vr p-sm-hr rounded-sm bold-font m-md-all">OPEN
+                        CONFIRM
+                        MODAL</button>
+                </div>
+                <div class="code-ss">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28245%2C245%2C245%2C1%29&t=seti&wt=none&l=auto&width=1280&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520id%253D%2522appModal-confirm%2522%2520class%253D%2522backdrop%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirm-dialog%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirm-container%2520rounded-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirm-header%2520confirm-header--divider%2520p-xs-all%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EPhone%2520Ringtone%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirm-body%2520confirm-body--divider%2520p-xs-all%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list__input%2520m-xs-all%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522id-1%2522%2520class%253D%2522center-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522id-1%2522%2520type%253D%2522radio%2522%2520class%253D%2522m-xs-r%2522%2520name%253D%2522I1%2522%2520checked%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Dione%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list__input%2520m-xs-all%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522id-2%2522%2520class%253D%2522center-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522id-2%2522%2520type%253D%2522radio%2522%2520class%253D%2522m-xs-r%2522%2520name%253D%2522I1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520None%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirm-actions%2520p-xs-all%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522cancelModal-confirm%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520btn--default-outline%2520p-xs-vr%2520p-sm-hr%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rounded-sm%2520bold-font%2520m-xs-all%2522%253ECANCEL%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary%2520p-xs-vr%2520p-sm-hr%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rounded-sm%2520bold-font%2520m-xs-all%2522%253EOK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 782px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Basic Modal -->
+    <div id="appModal-simple" class="backdrop">
+        <div class="simple-dialog m-sm-vr">
+            <div class="simple-container rounded-sm">
+                <div class="simple-message p-sm-all">
+                    <h3>Set up account</h3>
+                </div>
+                <div class="simple-actions p-sm-all">
+                    <div class="simple-actions__container m-sm-b">
+                        <img src="/assets/images/Ayushman.jpg" class="avatar avatar--md rounded-circle" alt="Avatar" />
+                        <div class="simple-actions__button p-xs-hr m-sm-l">ayushman@gmail.com</div>
+                    </div>
+
+                    <div class="simple-actions__container m-sm-b">
+                        <img src=" /assets/images/Ayushman.jpg" class="avatar avatar--md rounded-circle" alt="Avatar" />
+                        <div class="simple-actions__button p-xs-hr m-sm-l">kd@gmail.com</div>
+                    </div>
+
+                    <div class="simple-actions__container m-sm-b">
+                        <span class="avatar avatar--md avatar--new rounded-circle center-content bold-font text-md">
+                            <span class="material-icons">
+                                add
+                            </span></span>
+                        <div class="simple-actions__button p-xs-hr m-sm-l">Add account</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Alert Dialog -->
+    <div id="appModal-alert" class="backdrop">
+        <div class="alert-dialog">
+            <div class="alert-container rounded-sm">
+                <div class="alert-message p-sm-all">
+                    <span>Discard Drafts?</span>
+                </div>
+                <div class="alert-actions p-sm-all">
+                    <button id="cancelModal-alert"
+                        class="btn btn--default-text p-xs-vr p-sm-hr rounded-sm bold-font m-xs-r">CANCEL</button>
+                    <button class="btn btn--primary-text p-xs-vr p-sm-hr rounded-sm bold-font">DISCARD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Confirm Dialog -->
+    <div id="appModal-confirm" class="backdrop">
+        <div class="confirm-dialog">
+            <div class="confirm-container rounded-sm">
+                <div class="confirm-header confirm-header--divider p-xs-all">
+                    <h3>Phone Ringtone</h3>
+                </div>
+                <div class="confirm-body confirm-body--divider p-xs-all">
+                    <ul class="list">
+                        <li class="list__input m-xs-all">
+                            <label for="id-1" class="center-content">
+                                <input id="id-1" type="radio" class="m-xs-r" name="I1" checked>
+                                Dione
+                            </label>
+                        </li>
+                        <li class="list__input m-xs-all">
+                            <label for="id-2" class="center-content">
+                                <input id="id-2" type="radio" class="m-xs-r" name="I1">
+                                None
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="confirm-actions p-xs-all">
+                    <button id="cancelModal-confirm"
+                        class="btn btn--default-outline p-xs-vr p-sm-hr rounded-sm bold-font m-xs-all">CANCEL</button>
+                    <button class="btn btn--primary p-xs-vr p-sm-hr rounded-sm bold-font m-xs-all">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/components/modal/modal.js"></script>
+</body>
+
+</html>
