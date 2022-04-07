@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/common/style.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="/components/button/button.css">
+    <link rel="stylesheet" href="/components/list/list.css">
+    <link rel="stylesheet" href="/components/avatar/avatar.css">
+    <title>Modal</title>
+</head>
+
+<body>
+
+
+    <button id="showModal-simple">Simple</button>
+    <button id="showModal-confirm">Confirm</button>
+    <button id="showModal-alert">Alert</button>
+
+
+    <div id="appModal-confirm" class="backdrop">
+        <div class="confirm-dialog">
+            <div class="confirm-container rounded-sm">
+                <div class="confirm-header confirm-header--divider p-xs-all">
+                    <h3>Phone Ringtone</h3>
+                </div>
+                <div class="confirm-body confirm-body--divider p-xs-all">
+                    <ul class="list">
+                        <li class="list__input m-xs-all">
+                            <label for="id-1" class="center-content">
+                                <input id="id-1" type="radio" class="m-xs-r" name="I1" checked>
+                                Dione
+                            </label>
+                        </li>
+                        <li class="list__input m-xs-all">
+                            <label for="id-2" class="center-content">
+                                <input id="id-2" type="radio" class="m-xs-r" name="I1">
+                                None
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="confirm-actions p-xs-all">
+                    <button id="cancelModal-confirm"
+                        class="btn btn--default-outline p-xs-vr p-sm-hr rounded-sm bold-font m-xs-all">CANCEL</button>
+                    <button class="btn btn--primary p-xs-vr p-sm-hr rounded-sm bold-font m-xs-all">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="appModal" class="backdrop">
+        <div class="confirm-dialog">
+            <div class="confirm-container rounded-sm">
+                <div class="confirm-header  p-sm-all">
+                    <h3>Share Your Location</h3>
+                </div>
+                <div class="confirm-body  p-sm-all">
+                    <p>Stacked buttons accommodate longer button text.
+                        Confirming actions appear above dismissive actions.
+                    </p>
+                </div>
+                <div class="confirm-actions confirm-actions--stacked">
+                    <button class="btn btn--primary-text p-xs-vr p-sm-hr rounded-sm bold-font m-xs-all">Turn on
+                        location</button>
+                    <button id="cancel" class="btn btn--default-text p-xs-vr p-sm-hr rounded-sm bold-font m-xs-all">
+                        No thanks</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="appModal-simple" class="backdrop">
+        <div class="simple-dialog m-sm-vr">
+            <div class="simple-container rounded-sm">
+                <div class="simple-message p-sm-all">
+                    <h3>Set up account</h3>
+                </div>
+                <div class="simple-actions p-sm-all">
+                    <div class="simple-actions__container m-sm-b">
+                        <img src="/assets/images/Ayushman.jpg" class="avatar avatar--md rounded-circle" alt="Avatar" />
+                        <div class="simple-actions__button p-xs-hr m-sm-l">ayushman@gmail.com</div>
+                    </div>
+
+                    <div class="simple-actions__container m-sm-b">
+                        <img src=" /assets/images/Ayushman.jpg" class="avatar avatar--md rounded-circle" alt="Avatar" />
+                        <div class="simple-actions__button p-xs-hr m-sm-l">kd@gmail.com</div>
+                    </div>
+
+                    <div class="simple-actions__container m-sm-b">
+                        <span
+                            class="avatar avatar--md avatar--new rounded-circle center-content bold-font text-md"><span
+                                class="material-icons">
+                                add
+                            </span></span>
+                        <div class="simple-actions__button p-xs-hr m-sm-l">Add account</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="appModal-alert" class="backdrop">
+        <div class="alert-dialog">
+            <div class="alert-container rounded-sm">
+                <div class="alert-message p-sm-all">
+                    <span>Discard Drafts</span>
+                </div>
+                <div class="alert-actions p-sm-all">
+                    <button id="cancelModal-alert"
+                        class="btn btn--default-text p-xs-vr p-sm-hr rounded-sm bold-font m-xs-r">CANCEL</button>
+                    <button class="btn btn--primary-text p-xs-vr p-sm-hr rounded-sm bold-font">DISCARD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="modal.js"></script>
+
+</html>
