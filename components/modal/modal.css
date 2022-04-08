@@ -1,0 +1,72 @@
+.backdrop {
+  background-color: #e5e7ebb0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+/*  dialog */
+.confirm-dialog,
+.alert-dialog,
+.simple-dialog {
+  position: relative;
+  max-width: 300px;
+  margin: auto;
+  top: 10rem;
+}
+
+.confirm-container,
+.alert-container,
+.simple-container {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.confirm-header--divider,
+.confirm-body--divider {
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.confirm-actions,
+.alert-actions {
+  display: flex;
+  margin-left: auto;
+}
+
+.confirm-actions--stacked {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Simple modal */
+
+.simple-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.simple-actions__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.simple-actions__button {
+  cursor: pointer;
+  color: var(--primary);
+}
+.avatar--new {
+  background-color: var(--grey-200);
+}
+
+@media screen and (max-width: 450px) {
+  .confirm-dialog.confirm-dialog--full {
+    max-width: 100%;
+  }
+}
